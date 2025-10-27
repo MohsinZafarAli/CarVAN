@@ -1,0 +1,88 @@
+ .bg-orange {
+            background-color: #ff6600 !important;
+        }
+        .text-orange {
+            color: #ff6600 !important;
+        }
+        .bg-dark-custom {
+            background-color: #1a1a1a !important;
+        }
+        
+      
+        .btn-orange {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-weight: bold;
+        }
+        .btn-orange:hover {
+            background-color: #e55a00;
+            color: white;
+        }
+        
+    
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+        }
+        
+     
+        .section-padding {
+            padding: 80px 0;
+        }
+        
+     
+        .car-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+        .car-card:hover {
+            transform: translateY(-10px);
+        }
+        
+     
+        .brand-logo {
+            height: 80px;
+            transition: 0.3s;
+        }
+        .brand-logo:hover {
+            transform: scale(1.1);
+        }
+        
+      
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ff6600;
+            transform: translateX(-50%);
+        }
+        .timeline-item {
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .timeline-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            width: 45%;
+        }
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: auto;
+        }
